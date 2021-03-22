@@ -13,7 +13,7 @@
     <body>
         <div id="wrapper">
             <header>
-                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary mb-5">
                     <a class="navbar-brand text-warning font-weight-bold mr-5" href="/account/signin"><i class="fab fa-laravel mr-1"></i>mini-blog.laraval</a>
                     <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
