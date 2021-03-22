@@ -46,7 +46,7 @@ class PostController extends Controller
         $post->posts = $request->posts;
         $post->user_id = $user->id;
         // is_replyに0を設定
-        $post->is_reply = 0;
+        // $post->is_reply = 0;
 
         // 画像の保存
         if ($request->image){
