@@ -18,7 +18,7 @@ class CreatePostsTable extends Migration
             $table->string('posts');
             $table->text('image')->nullable();
             $table->integer('user_id');
-            $table->integer('is_reply');
+            $table->integer('is_reply')->nullable();
             $table->timestamps();
         });
     }
