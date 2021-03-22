@@ -53,7 +53,7 @@
             <div id="wrap_content">
                 <div id="head">
                     <main class="container">
-                        <div class="jumbotron">
+                        <div class="jumbotron mt-5">
                             <h1 class="display-4">@yield('title')</h1>
                             @section('menubar')
                             <div class="additional_btn">
