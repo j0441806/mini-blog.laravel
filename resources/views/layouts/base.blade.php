@@ -54,7 +54,7 @@
                 <div id="head">
                     <main class="container">
                         <div class="jumbotron mt-5">
-                            <h1 class="display-4">@yield('title')</h1>
+                            <h1 class="display-4 mt-5">@yield('title')</h1>
                             @section('menubar')
                             <div class="additional_btn">
                                 @show
