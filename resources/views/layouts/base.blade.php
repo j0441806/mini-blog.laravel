@@ -52,9 +52,12 @@
 
             <div id="wrap_content">
                 <div id="head">
-                    <main class="container">
-                    <div style="height: 40px;"></div>
-                        <div class="jumbotron mt-5">
+                    <div class="container">
+                        <div class="pb-3 bg-transparent">
+                        </div>
+                    </div>
+                    <main class="container mt-5">
+                        <div class="jumbotron">
                             <h1 class="display-4 mt-5">@yield('title')</h1>
                             @section('menubar')
                             <div class="additional_btn">
