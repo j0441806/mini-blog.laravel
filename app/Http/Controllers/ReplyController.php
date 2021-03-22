@@ -26,7 +26,7 @@ class ReplyController extends Controller
 
         // postsテーブルのis_replyに1を設定
         Post::where('id', $post->id)
-        ->update(['is_reply' => '1']);
+        ->update(['is_reply' => 1]);
 
         // 画像の保存
         if($request->image){
