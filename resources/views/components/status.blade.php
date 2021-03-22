@@ -7,7 +7,7 @@
         @endif
         <span class="date">
             <a href="{{$link}}">{{$status->created_at}}</a>
-            @if ($status->is_reply !== 0)
+            @if ($status->is_reply === 1)
             <span><i class="fas fa-comment-dots ml-1"></i></sapn>
             @endif
         </span>
