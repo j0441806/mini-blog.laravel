@@ -53,6 +53,7 @@
             <div id="wrap_content">
                 <div id="head">
                     <main class="container">
+                    <div style="height: 40px;"></div>
                         <div class="jumbotron mt-5">
                             <h1 class="display-4 mt-5">@yield('title')</h1>
                             @section('menubar')
